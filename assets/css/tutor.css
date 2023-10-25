@@ -1,0 +1,71 @@
+span.tcsg_tutor_completed_icon {
+		font-size: 0.6em;
+		color: var(--tutor-color-white);
+		margin-left: 6px;
+}
+.tcsg_tutor_enrolled_course {
+	background-color: var(--tutor-color-gray);
+	padding-bottom: 5px;
+}
+h3.tcsg_tutor_enrolled_course_title {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		background-color: var(--tutor-color-primary);
+		color: var(--tutor-color-white);
+		padding: 20px;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+}
+
+.tcsg_tutor-course-topic {
+		border-radius: 10px;
+		box-shadow: 0 5px 7px -1px rgba(51, 51, 51, 0.23);
+		padding: 10px 20px;
+		margin: 20px 10px;
+		background-color: #ffffff99;
+}
+.tcsg_tutor-accordion-item-header {
+		display: flex;
+		justify-content: space-between;
+		font-size: 1.5em;
+		margin-bottom: 10px;
+}
+.tcsg_tutor-course-topic-item span.tcsg_tutor_completed_icon {
+		color: var(--tutor-color-primary);
+}
+
+.tcsg_tutor-course-topic-item-flex {
+		display: flex;
+		align-items: center;
+		font-size: 1.1em;
+		margin: 5px 0 5px 15px;
+}
+
+.tcsg_tutor_not_complete a {
+	font-size: 0.7em;
+	margin-left: 5px;
+}
+
+.tcsg_tutor_enrolled_course_title .tcsg_tutor_not_complete a {
+	color: #ffffff;	
+	font-size: 0.6em;
+	font-weight: 300;
+}
+
+.tcsg_tutor-course-topic-item-icon {
+	margin-right: 8px;
+}
+
+.tcsg_tutor-course-topic-item span.tcsg_tutor_grade_icon {
+		font-size: 0.8em;
+		margin-left: 6px;
+}
+
+.tcsg_tutor-course-topic-item span.tcsg_tutor_grade_icon .tcsg_tutor_quiz_pass {
+	color: var(--tutor-color-success);	
+}
+
+.tcsg_tutor-course-topic-item span.tcsg_tutor_grade_icon .tcsg_tutor_quiz_fail {
+	color: var(--tutor-color-danger);	
+}

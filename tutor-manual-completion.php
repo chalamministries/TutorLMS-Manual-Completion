@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Tutor Manual Completion
+Plugin Name: Tutor LMS Manual Completion
 Plugin URI: https://github.com/chalamministries/TutorLMS-Manual-Completion
 Description: Mark lessons, quizzes and courses as complete for users
-Version: 1.3
+Version: 1.5
 Author: Steven Gauerke
 Author URI: https://chalamministries.com
 */
@@ -14,7 +14,7 @@ use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 class Tutor_Completions {
 
-    protected $V = 1.3;
+    protected $V = 1.5;
     protected $USERID = null;
     protected $PLUGIN_NAME = "Tutor_Completions";
     

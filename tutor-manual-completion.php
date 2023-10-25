@@ -3,7 +3,7 @@
 Plugin Name: Tutor Manual Completion
 Plugin URI: https://github.com/chalamministries/TutorLMS-Manual-Completion
 Description: Mark lessons, quizzes and courses as complete for users
-Version: 1.1
+Version: 1.2
 Author: Steven Gauerke
 Author URI: https://chalamministries.com
 */
@@ -23,7 +23,7 @@ $myUpdateChecker->setBranch('main');
 
 class Tutor_Completions {
 
-    protected $V = 1.1;
+    protected $V = 1.2;
     protected $USERID = null;
     protected $PLUGIN_NAME = "Tutor_Completions";
     

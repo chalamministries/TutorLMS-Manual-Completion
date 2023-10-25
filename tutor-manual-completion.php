@@ -3,7 +3,7 @@
 Plugin Name: Tutor Manual Completion
 Plugin URI: https://github.com/chalamministries/TutorLMS-Manual-Completion
 Description: Mark lessons, quizzes and courses as complete for users
-Version: 1.2
+Version: 1.3
 Author: Steven Gauerke
 Author URI: https://chalamministries.com
 */
@@ -11,19 +11,10 @@ Author URI: https://chalamministries.com
 require 'plugin-update-checker/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
-$myUpdateChecker = PucFactory::buildUpdateChecker(
-    'https://github.com/chalamministries/TutorLMS-Manual-Completion',
-    __FILE__,
-    'tutor-manual-completion'
-);
-
-//Set the branch that contains the stable release.
-$myUpdateChecker->setBranch('main');
-
 
 class Tutor_Completions {
 
-    protected $V = 1.2;
+    protected $V = 1.3;
     protected $USERID = null;
     protected $PLUGIN_NAME = "Tutor_Completions";
     
@@ -32,6 +23,15 @@ class Tutor_Completions {
 
         $C = __CLASS__;
         new $C;
+        
+        $myUpdateChecker = PucFactory::buildUpdateChecker(
+            'https://github.com/chalamministries/TutorLMS-Manual-Completion/',
+            __FILE__,
+            'tutor-manual-completion'
+        );
+        
+        //Set the branch that contains the stable release.
+        $myUpdateChecker->setBranch('main');
 
     }
 
